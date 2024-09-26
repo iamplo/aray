@@ -7,7 +7,7 @@ type Props = {
 function Login(props: PropsWithChildren<Props>) {
   return (
     <>
-      <h1 className="my-6 text-3xl text-center font-semibold">Repositories</h1>
+      <h1 className="my-6 text-3xl text-center font-semibold">List Repositories</h1>
       <div className="rounded-md p-4 bg-white my-o mx-auto max-w-xs shadow-sm">
         <form
           onSubmit={async (e) => {

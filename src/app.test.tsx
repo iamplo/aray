@@ -10,10 +10,10 @@ test("App shows login form", () => {
 
 test("app lands on login prompt", async () => {
   const { getByText } = render(<App />);
-  expect(getByText("Repositories")).toBeTruthy();
+  expect(getByText("List Repositories")).toBeTruthy();
 });
 
-test("form submit renders the repo list", async () => {
+test("form submit renders the repo list view", async () => {
   const { getByTestId } = render(
     <MemoryRouter>
       <App />
